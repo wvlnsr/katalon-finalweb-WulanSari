@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,Chrome 129.0.0.0,,,22-09-2024 16:58:04,22-09-2024 16:59:09,1m - 4.662s,PASSED
+,,,,,,,
+Test Cases/3. Add product to cart,Chrome 129.0.0.0,,,22-09-2024 16:58:04,22-09-2024 16:58:33,29.137s,PASSED
+openBrowser(baseUrl),Chrome 129.0.0.0,,,22-09-2024 16:58:05,22-09-2024 16:58:10,5.673s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,22-09-2024 16:58:10,22-09-2024 16:58:10,0.082s,PASSED
+"verifyElementPresent(findTestObject(""home-page/headphone-category""), 0)",Chrome 129.0.0.0,,,22-09-2024 16:58:10,22-09-2024 16:58:15,4.500s,PASSED
+"click(findTestObject(""home-page/headphone-category""))",Chrome 129.0.0.0,,,22-09-2024 16:58:15,22-09-2024 16:58:15,0.349s,PASSED
+"verifyElementPresent(findTestObject(""headphone-product-list-page/header""), 0)",Chrome 129.0.0.0,,,22-09-2024 16:58:15,22-09-2024 16:58:17,2.099s,PASSED
+"click(findTestObject(""headphone-product-list-page/product""))",Chrome 129.0.0.0,,,22-09-2024 16:58:17,22-09-2024 16:58:18,0.310s,PASSED
+"click(findTestObject(""detail-product-page/plus""))",Chrome 129.0.0.0,,,22-09-2024 16:58:18,22-09-2024 16:58:25,7.614s,PASSED
+"click(findTestObject(""detail-product-page/add2cart-btn""))",Chrome 129.0.0.0,,,22-09-2024 16:58:25,22-09-2024 16:58:26,0.345s,PASSED
+delay(5),Chrome 129.0.0.0,,,22-09-2024 16:58:26,22-09-2024 16:58:31,5.068s,PASSED
+"click(findTestObject(""detail-product-page/cart-icon""))",Chrome 129.0.0.0,,,22-09-2024 16:58:31,22-09-2024 16:58:31,0.493s,PASSED
+"verifyElementPresent(findTestObject(""cart-page/checkout-btn""), 0)",Chrome 129.0.0.0,,,22-09-2024 16:58:31,22-09-2024 16:58:33,1.895s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.233s,PASSED
+"click(findTestObject(""cart-page/checkout-btn""))",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"click(findTestObject(""payment-page/register-btn""))",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"setText(findTestObject(""register-page/username-field""), ""hasbullah5"")",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.016s,NOT_RUN
+"setText(findTestObject(""register-page/email-field""), ""hasbullah@test.com"")",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"setText(findTestObject(""register-page/password-field""), ""T3st"")",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"setText(findTestObject(""register-page/cnf-password-field""), ""T3st"")",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"scrollToElement(findTestObject(""register-page/state-field""), 0)",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.016s,NOT_RUN
+"click(findTestObject(""register-page/snk-checkbox""))",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"click(findTestObject(""register-page/submit-btn""))",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"click(findTestObject(""payment-page/next-btn""))",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"click(findTestObject(""payment-page/master-radiobtn""))",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"setText(findTestObject(""payment-page/cardNo-field""), ""1234 5678 9012"")",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"setText(findTestObject(""payment-page/cvv-field""), ""1234"")",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"selectOptionByValue(findTestObject(""payment-page/mm-field""), ""string:03"", false)",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"selectOptionByValue(findTestObject(""payment-page/yy-field""), ""string:2025"", false)",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"setText(findTestObject(""payment-page/cardholder-field""), ""Nani"")",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"click(findTestObject(""payment-page/paynow-btn""))",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+"verifyTextPresent(""Thank you for buying with Advantage"", false)",Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.016s,NOT_RUN
+closeBrowser(),Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:58:33,0.000s,NOT_RUN
+,,,,,,,
+Test Cases/3. Checkout until payment succeed,Chrome 129.0.0.0,,,22-09-2024 16:58:33,22-09-2024 16:59:09,35.342s,PASSED
+openBrowser(baseUrl),Chrome 129.0.0.0,,,22-09-2024 16:58:34,22-09-2024 16:58:38,4.459s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,22-09-2024 16:58:38,22-09-2024 16:58:38,0.065s,PASSED
+"verifyElementPresent(findTestObject(""home-page/headphone-category""), 0)",Chrome 129.0.0.0,,,22-09-2024 16:58:38,22-09-2024 16:58:42,4.310s,PASSED
+"click(findTestObject(""home-page/headphone-category""))",Chrome 129.0.0.0,,,22-09-2024 16:58:42,22-09-2024 16:58:43,0.350s,PASSED
+"verifyElementPresent(findTestObject(""headphone-product-list-page/header""), 0)",Chrome 129.0.0.0,,,22-09-2024 16:58:43,22-09-2024 16:58:45,2.077s,PASSED
+"click(findTestObject(""headphone-product-list-page/product""))",Chrome 129.0.0.0,,,22-09-2024 16:58:45,22-09-2024 16:58:45,0.339s,PASSED
+"click(findTestObject(""detail-product-page/plus""))",Chrome 129.0.0.0,,,22-09-2024 16:58:45,22-09-2024 16:58:53,7.451s,PASSED
+"click(findTestObject(""detail-product-page/add2cart-btn""))",Chrome 129.0.0.0,,,22-09-2024 16:58:53,22-09-2024 16:58:53,0.369s,PASSED
+delay(5),Chrome 129.0.0.0,,,22-09-2024 16:58:53,22-09-2024 16:58:58,5.022s,PASSED
+"click(findTestObject(""detail-product-page/cart-icon""))",Chrome 129.0.0.0,,,22-09-2024 16:58:58,22-09-2024 16:58:58,0.394s,PASSED
+"click(findTestObject(""cart-page/checkout-btn""))",Chrome 129.0.0.0,,,22-09-2024 16:58:58,22-09-2024 16:58:59,0.883s,PASSED
+"setText(findTestObject(""payment-page/username-field""), username)",Chrome 129.0.0.0,,,22-09-2024 16:58:59,22-09-2024 16:59:01,1.781s,PASSED
+"setText(findTestObject(""payment-page/password-field""), password)",Chrome 129.0.0.0,,,22-09-2024 16:59:01,22-09-2024 16:59:02,0.944s,PASSED
+"click(findTestObject(""payment-page/login-btn""))",Chrome 129.0.0.0,,,22-09-2024 16:59:02,22-09-2024 16:59:03,0.580s,PASSED
+"click(findTestObject(""payment-page/next-btn""))",Chrome 129.0.0.0,,,22-09-2024 16:59:03,22-09-2024 16:59:06,3.593s,PASSED
+"click(findTestObject(""payment-page/master-radiobtn""))",Chrome 129.0.0.0,,,22-09-2024 16:59:06,22-09-2024 16:59:07,0.364s,PASSED
+"setText(findTestObject(""payment-page/cardNo-field""), ""1234 5678 9012"")",Chrome 129.0.0.0,,,22-09-2024 16:59:07,22-09-2024 16:59:07,0.000s,NOT_RUN
+"setText(findTestObject(""payment-page/cvv-field""), ""1234"")",Chrome 129.0.0.0,,,22-09-2024 16:59:07,22-09-2024 16:59:07,0.004s,NOT_RUN
+"selectOptionByValue(findTestObject(""payment-page/mm-field""), ""string:03"", false)",Chrome 129.0.0.0,,,22-09-2024 16:59:07,22-09-2024 16:59:07,0.000s,NOT_RUN
+"selectOptionByValue(findTestObject(""payment-page/yy-field""), ""string:2025"", false)",Chrome 129.0.0.0,,,22-09-2024 16:59:07,22-09-2024 16:59:07,0.000s,NOT_RUN
+"setText(findTestObject(""payment-page/cardholder-field""), ""Nani"")",Chrome 129.0.0.0,,,22-09-2024 16:59:07,22-09-2024 16:59:07,0.000s,NOT_RUN
+"click(findTestObject(""payment-page/paynow-btn""))",Chrome 129.0.0.0,,,22-09-2024 16:59:07,22-09-2024 16:59:07,0.348s,PASSED
+"verifyTextPresent(""Thank you for buying with Advantage"", false)",Chrome 129.0.0.0,,,22-09-2024 16:59:07,22-09-2024 16:59:08,1.588s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,22-09-2024 16:59:08,22-09-2024 16:59:09,0.206s,PASSED

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout" time="64.662" tests="2" failures="0" errors="0">
+   <testsuite name="Checkout" tests="2" failures="0" errors="0" time="64.662" skipped="0" timestamp="22-09-2024T16:58:04" hostname="user.pupuk - PIHC5723.PUPUK-INDONESIA.local" id="Test Suites/Checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\user.pupuk\\git\\katalon-finalweb-WulanSari\\Reports\\20240922_165759\\Checkout\\20240922_165759"/>
+         <property name="logFiles" value="C:\\Users\\user.pupuk\\git\\katalon-finalweb-WulanSari\\Reports\\20240922_165759\\Checkout\\20240922_165759\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user.pupuk - PIHC5723.PUPUK-INDONESIA.local"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.90.34"/>
+         <property name="sessionId" value="1a8102fc270ce5e0f49348424aac8d25"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/3. Add product to cart" time="29.137" classname="Test Cases/3. Add product to cart" status="PASSED">
+         <system-out><![CDATA[22-09-2024T16:58:04 - [TEST_CASE][PASSED] - Test Cases/3. Add product to cart: Test Cases/3. Add product to cart
+
+22-09-2024T16:58:05 - [TEST_STEP][PASSED] - openBrowser(baseUrl): Browser is opened with url: 'https://advantageonlineshopping.com/'
+
+22-09-2024T16:58:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-09-2024T16:58:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-09-2024T16:58:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/'
+
+22-09-2024T16:58:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-09-2024T16:58:10 - [MESSAGE][PASSED] - Current window maximized
+
+22-09-2024T16:58:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("home-page/headphone-category"), 0): Object 'Object Repository/home-page/headphone-category' is present
+
+22-09-2024T16:58:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-09-2024T16:58:15 - [MESSAGE][PASSED] - Object 'Object Repository/home-page/headphone-category' is present
+
+22-09-2024T16:58:15 - [TEST_STEP][PASSED] - click(findTestObject("home-page/headphone-category")): Object: 'Object Repository/home-page/headphone-category' is clicked on
+
+22-09-2024T16:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/headphone-category' is clicked on
+
+22-09-2024T16:58:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("headphone-product-list-page/header"), 0): Object 'Object Repository/headphone-product-list-page/header' is present
+
+22-09-2024T16:58:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-09-2024T16:58:17 - [MESSAGE][PASSED] - Object 'Object Repository/headphone-product-list-page/header' is present
+
+22-09-2024T16:58:17 - [TEST_STEP][PASSED] - click(findTestObject("headphone-product-list-page/product")): Object: 'Object Repository/headphone-product-list-page/product' is clicked on
+
+22-09-2024T16:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/headphone-product-list-page/product' is clicked on
+
+22-09-2024T16:58:18 - [TEST_STEP][PASSED] - click(findTestObject("detail-product-page/plus")): Object: 'Object Repository/detail-product-page/plus' is clicked on
+
+22-09-2024T16:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/detail-product-page/plus' is clicked on
+
+22-09-2024T16:58:25 - [TEST_STEP][PASSED] - click(findTestObject("detail-product-page/add2cart-btn")): Object: 'Object Repository/detail-product-page/add2cart-btn' is clicked on
+
+22-09-2024T16:58:26 - [MESSAGE][PASSED] - Object: 'Object Repository/detail-product-page/add2cart-btn' is clicked on
+
+22-09-2024T16:58:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+22-09-2024T16:58:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+22-09-2024T16:58:31 - [TEST_STEP][PASSED] - click(findTestObject("detail-product-page/cart-icon")): Object: 'Object Repository/detail-product-page/cart-icon' is clicked on
+
+22-09-2024T16:58:31 - [MESSAGE][PASSED] - Object: 'Object Repository/detail-product-page/cart-icon' is clicked on
+
+22-09-2024T16:58:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("cart-page/checkout-btn"), 0): Object 'Object Repository/cart-page/checkout-btn' is present
+
+22-09-2024T16:58:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-09-2024T16:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/cart-page/checkout-btn' is present
+
+22-09-2024T16:58:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-09-2024T16:58:33 - [MESSAGE][PASSED] - Browser is closed
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - click(findTestObject("cart-page/checkout-btn")): NOT_RUN: click(findTestObject("cart-page/checkout-btn"))
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("cart-page/checkout-btn"))
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - click(findTestObject("payment-page/register-btn")): NOT_RUN: click(findTestObject("payment-page/register-btn"))
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("payment-page/register-btn"))
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("register-page/username-field"), "hasbullah5"): NOT_RUN: setText(findTestObject("register-page/username-field"), "hasbullah5")
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("register-page/username-field"), "hasbullah5")
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("register-page/email-field"), "hasbullah@test.com"): NOT_RUN: setText(findTestObject("register-page/email-field"), "hasbullah@test.com")
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("register-page/email-field"), "hasbullah@test.com")
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("register-page/password-field"), "T3st"): NOT_RUN: setText(findTestObject("register-page/password-field"), "T3st")
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("register-page/password-field"), "T3st")
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("register-page/cnf-password-field"), "T3st"): NOT_RUN: setText(findTestObject("register-page/cnf-password-field"), "T3st")
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("register-page/cnf-password-field"), "T3st")
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - scrollToElement(findTestObject("register-page/state-field"), 0): NOT_RUN: scrollToElement(findTestObject("register-page/state-field"), 0)
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement(findTestObject("register-page/state-field"), 0)
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - click(findTestObject("register-page/snk-checkbox")): NOT_RUN: click(findTestObject("register-page/snk-checkbox"))
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("register-page/snk-checkbox"))
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - click(findTestObject("register-page/submit-btn")): NOT_RUN: click(findTestObject("register-page/submit-btn"))
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("register-page/submit-btn"))
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - click(findTestObject("payment-page/next-btn")): NOT_RUN: click(findTestObject("payment-page/next-btn"))
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("payment-page/next-btn"))
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - click(findTestObject("payment-page/master-radiobtn")): NOT_RUN: click(findTestObject("payment-page/master-radiobtn"))
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("payment-page/master-radiobtn"))
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("payment-page/cardNo-field"), "1234 5678 9012"): NOT_RUN: setText(findTestObject("payment-page/cardNo-field"), "1234 5678 9012")
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("payment-page/cardNo-field"), "1234 5678 9012")
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("payment-page/cvv-field"), "1234"): NOT_RUN: setText(findTestObject("payment-page/cvv-field"), "1234")
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("payment-page/cvv-field"), "1234")
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("payment-page/mm-field"), "string:03", false): NOT_RUN: selectOptionByValue(findTestObject("payment-page/mm-field"), "string:03", false)
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("payment-page/mm-field"), "string:03", false)
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("payment-page/yy-field"), "string:2025", false): NOT_RUN: selectOptionByValue(findTestObject("payment-page/yy-field"), "string:2025", false)
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("payment-page/yy-field"), "string:2025", false)
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - setText(findTestObject("payment-page/cardholder-field"), "Nani"): NOT_RUN: setText(findTestObject("payment-page/cardholder-field"), "Nani")
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("payment-page/cardholder-field"), "Nani")
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - click(findTestObject("payment-page/paynow-btn")): NOT_RUN: click(findTestObject("payment-page/paynow-btn"))
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("payment-page/paynow-btn"))
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - verifyTextPresent("Thank you for buying with Advantage", false): NOT_RUN: verifyTextPresent("Thank you for buying with Advantage", false)
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyTextPresent("Thank you for buying with Advantage", false)
+
+22-09-2024T16:58:33 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+22-09-2024T16:58:33 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. Checkout until payment succeed" time="35.342" classname="Test Cases/3. Checkout until payment succeed" status="PASSED">
+         <system-out><![CDATA[22-09-2024T16:58:33 - [TEST_CASE][PASSED] - Test Cases/3. Checkout until payment succeed: Test Cases/3. Checkout until payment succeed
+
+22-09-2024T16:58:34 - [TEST_STEP][PASSED] - openBrowser(baseUrl): Browser is opened with url: 'https://advantageonlineshopping.com/'
+
+22-09-2024T16:58:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-09-2024T16:58:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-09-2024T16:58:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/'
+
+22-09-2024T16:58:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-09-2024T16:58:38 - [MESSAGE][PASSED] - Current window maximized
+
+22-09-2024T16:58:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("home-page/headphone-category"), 0): Object 'Object Repository/home-page/headphone-category' is present
+
+22-09-2024T16:58:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-09-2024T16:58:42 - [MESSAGE][PASSED] - Object 'Object Repository/home-page/headphone-category' is present
+
+22-09-2024T16:58:42 - [TEST_STEP][PASSED] - click(findTestObject("home-page/headphone-category")): Object: 'Object Repository/home-page/headphone-category' is clicked on
+
+22-09-2024T16:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/headphone-category' is clicked on
+
+22-09-2024T16:58:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("headphone-product-list-page/header"), 0): Object 'Object Repository/headphone-product-list-page/header' is present
+
+22-09-2024T16:58:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-09-2024T16:58:45 - [MESSAGE][PASSED] - Object 'Object Repository/headphone-product-list-page/header' is present
+
+22-09-2024T16:58:45 - [TEST_STEP][PASSED] - click(findTestObject("headphone-product-list-page/product")): Object: 'Object Repository/headphone-product-list-page/product' is clicked on
+
+22-09-2024T16:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/headphone-product-list-page/product' is clicked on
+
+22-09-2024T16:58:45 - [TEST_STEP][PASSED] - click(findTestObject("detail-product-page/plus")): Object: 'Object Repository/detail-product-page/plus' is clicked on
+
+22-09-2024T16:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/detail-product-page/plus' is clicked on
+
+22-09-2024T16:58:53 - [TEST_STEP][PASSED] - click(findTestObject("detail-product-page/add2cart-btn")): Object: 'Object Repository/detail-product-page/add2cart-btn' is clicked on
+
+22-09-2024T16:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/detail-product-page/add2cart-btn' is clicked on
+
+22-09-2024T16:58:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+22-09-2024T16:58:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+22-09-2024T16:58:58 - [TEST_STEP][PASSED] - click(findTestObject("detail-product-page/cart-icon")): Object: 'Object Repository/detail-product-page/cart-icon' is clicked on
+
+22-09-2024T16:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/detail-product-page/cart-icon' is clicked on
+
+22-09-2024T16:58:58 - [TEST_STEP][PASSED] - click(findTestObject("cart-page/checkout-btn")): Object: 'Object Repository/cart-page/checkout-btn' is clicked on
+
+22-09-2024T16:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/cart-page/checkout-btn' is clicked on
+
+22-09-2024T16:58:59 - [TEST_STEP][PASSED] - setText(findTestObject("payment-page/username-field"), username): Text 'testfinal' is set on object 'Object Repository/payment-page/username-field'
+
+22-09-2024T16:59:01 - [MESSAGE][PASSED] - Text 'testfinal' is set on object 'Object Repository/payment-page/username-field'
+
+22-09-2024T16:59:01 - [TEST_STEP][PASSED] - setText(findTestObject("payment-page/password-field"), password): Text 't3sT' is set on object 'Object Repository/payment-page/password-field'
+
+22-09-2024T16:59:02 - [MESSAGE][PASSED] - Text 't3sT' is set on object 'Object Repository/payment-page/password-field'
+
+22-09-2024T16:59:02 - [TEST_STEP][PASSED] - click(findTestObject("payment-page/login-btn")): Object: 'Object Repository/payment-page/login-btn' is clicked on
+
+22-09-2024T16:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/payment-page/login-btn' is clicked on
+
+22-09-2024T16:59:03 - [TEST_STEP][PASSED] - click(findTestObject("payment-page/next-btn")): Object: 'Object Repository/payment-page/next-btn' is clicked on
+
+22-09-2024T16:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/payment-page/next-btn' is clicked on
+
+22-09-2024T16:59:06 - [TEST_STEP][PASSED] - click(findTestObject("payment-page/master-radiobtn")): Object: 'Object Repository/payment-page/master-radiobtn' is clicked on
+
+22-09-2024T16:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/payment-page/master-radiobtn' is clicked on
+
+22-09-2024T16:59:07 - [TEST_STEP][NOT_RUN] - setText(findTestObject("payment-page/cardNo-field"), "1234 5678 9012"): NOT_RUN: setText(findTestObject("payment-page/cardNo-field"), "1234 5678 9012")
+
+22-09-2024T16:59:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("payment-page/cardNo-field"), "1234 5678 9012")
+
+22-09-2024T16:59:07 - [TEST_STEP][NOT_RUN] - setText(findTestObject("payment-page/cvv-field"), "1234"): NOT_RUN: setText(findTestObject("payment-page/cvv-field"), "1234")
+
+22-09-2024T16:59:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("payment-page/cvv-field"), "1234")
+
+22-09-2024T16:59:07 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("payment-page/mm-field"), "string:03", false): NOT_RUN: selectOptionByValue(findTestObject("payment-page/mm-field"), "string:03", false)
+
+22-09-2024T16:59:07 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("payment-page/mm-field"), "string:03", false)
+
+22-09-2024T16:59:07 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("payment-page/yy-field"), "string:2025", false): NOT_RUN: selectOptionByValue(findTestObject("payment-page/yy-field"), "string:2025", false)
+
+22-09-2024T16:59:07 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("payment-page/yy-field"), "string:2025", false)
+
+22-09-2024T16:59:07 - [TEST_STEP][NOT_RUN] - setText(findTestObject("payment-page/cardholder-field"), "Nani"): NOT_RUN: setText(findTestObject("payment-page/cardholder-field"), "Nani")
+
+22-09-2024T16:59:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("payment-page/cardholder-field"), "Nani")
+
+22-09-2024T16:59:07 - [TEST_STEP][PASSED] - click(findTestObject("payment-page/paynow-btn")): Object: 'Object Repository/payment-page/paynow-btn' is clicked on
+
+22-09-2024T16:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/payment-page/paynow-btn' is clicked on
+
+22-09-2024T16:59:07 - [TEST_STEP][PASSED] - verifyTextPresent("Thank you for buying with Advantage", false): Text 'Thank you for buying with Advantage' is present on page 
+
+22-09-2024T16:59:08 - [MESSAGE][PASSED] - Text 'Thank you for buying with Advantage' is present on page 
+
+22-09-2024T16:59:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-09-2024T16:59:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-09-2024T16:58:04 - [TEST_SUITE][PASSED] - Checkout: Test Cases/3. Checkout until payment succeed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
