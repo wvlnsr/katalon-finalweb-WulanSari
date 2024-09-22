@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,Chrome 129.0.0.0,,,22-09-2024 09:23:37,22-09-2024 09:25:46,2m - 9.262s,FAILED
+,,,,,,,
+Test Cases/3. Add product to cart,Chrome 129.0.0.0,,,22-09-2024 09:23:37,22-09-2024 09:24:02,25.345s,PASSED
+openBrowser(baseUrl),Chrome 129.0.0.0,,,22-09-2024 09:23:37,22-09-2024 09:23:42,4.709s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,22-09-2024 09:23:42,22-09-2024 09:23:42,0.097s,PASSED
+"verifyElementPresent(findTestObject(""home-page/headphone-category""), 0)",Chrome 129.0.0.0,,,22-09-2024 09:23:42,22-09-2024 09:23:47,4.543s,PASSED
+"click(findTestObject(""home-page/headphone-category""))",Chrome 129.0.0.0,,,22-09-2024 09:23:47,22-09-2024 09:23:47,0.315s,PASSED
+"verifyElementPresent(findTestObject(""headphone-product-list-page/header""), 0)",Chrome 129.0.0.0,,,22-09-2024 09:23:47,22-09-2024 09:23:49,2.153s,PASSED
+"click(findTestObject(""headphone-product-list-page/product""))",Chrome 129.0.0.0,,,22-09-2024 09:23:49,22-09-2024 09:23:50,0.295s,PASSED
+"click(findTestObject(""detail-product-page/plus""))",Chrome 129.0.0.0,,,22-09-2024 09:23:50,22-09-2024 09:23:57,7.187s,PASSED
+"click(findTestObject(""detail-product-page/add2cart-btn""))",Chrome 129.0.0.0,,,22-09-2024 09:23:57,22-09-2024 09:23:57,0.291s,PASSED
+delay(5),Chrome 129.0.0.0,,,22-09-2024 09:23:57,22-09-2024 09:24:02,5.029s,PASSED
+"click(findTestObject(""detail-product-page/cart-icon""))",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.319s,PASSED
+"click(findTestObject(""cart-page/checkout-btn""))",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.006s,NOT_RUN
+"click(findTestObject(""payment-page/register-btn""))",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.003s,NOT_RUN
+"setText(findTestObject(""register-page/username-field""), ""hasbullah5"")",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.005s,NOT_RUN
+"setText(findTestObject(""register-page/email-field""), ""hasbullah@test.com"")",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.004s,NOT_RUN
+"setText(findTestObject(""register-page/password-field""), ""T3st"")",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.002s,NOT_RUN
+"setText(findTestObject(""register-page/cnf-password-field""), ""T3st"")",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.002s,NOT_RUN
+"scrollToElement(findTestObject(""register-page/state-field""), 0)",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.001s,NOT_RUN
+"click(findTestObject(""register-page/snk-checkbox""))",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.001s,NOT_RUN
+"click(findTestObject(""register-page/submit-btn""))",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.002s,NOT_RUN
+"click(findTestObject(""payment-page/next-btn""))",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.004s,NOT_RUN
+"click(findTestObject(""payment-page/master-radiobtn""))",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.001s,NOT_RUN
+"setText(findTestObject(""payment-page/cardNo-field""), ""1234 5678 9012"")",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.002s,NOT_RUN
+"setText(findTestObject(""payment-page/cvv-field""), ""1234"")",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.003s,NOT_RUN
+"selectOptionByValue(findTestObject(""payment-page/mm-field""), ""string:03"", false)",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.004s,NOT_RUN
+"selectOptionByValue(findTestObject(""payment-page/yy-field""), ""string:2025"", false)",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.004s,NOT_RUN
+"setText(findTestObject(""payment-page/cardholder-field""), ""Nani"")",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.004s,NOT_RUN
+"click(findTestObject(""payment-page/paynow-btn""))",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.003s,NOT_RUN
+"verifyTextPresent(""Thank you for buying with Advantage"", false)",Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.007s,NOT_RUN
+closeBrowser(),Chrome 129.0.0.0,,,22-09-2024 09:24:02,22-09-2024 09:24:02,0.001s,NOT_RUN
+,,,,,,,
+Test Cases/3. Checkout until payment succeed,Chrome 129.0.0.0,,,22-09-2024 09:25:45,22-09-2024 09:25:46,1.637s,FAILED
+openBrowser(baseUrl),Chrome 129.0.0.0,,,22-09-2024 09:25:45,22-09-2024 09:25:46,1.589s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,22-09-2024 09:25:46,22-09-2024 09:25:46,0.014s,FAILED
