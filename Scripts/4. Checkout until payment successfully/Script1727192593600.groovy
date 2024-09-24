@@ -35,4 +35,40 @@ WebUI.click(findTestObject('home-page/login-modal/signin-btn'))
 
 WebUI.verifyTextPresent(GlobalVariable.username, false)
 
+WebUI.click(findTestObject('home-page/headphone-sec'))
+
+WebUI.click(findTestObject('headphone-sec-page/product'))
+
+WebUI.click(findTestObject('product-detail/plus'))
+
+WebUI.click(findTestObject('product-detail/add2cart-btn'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('home-page/cart-icon'))
+
+WebUI.click(findTestObject('cart-page/checkout-btn'))
+
+WebUI.click(findTestObject('payment-page/next-btn'))
+
+WebUI.click(findTestObject('payment-page/mastercard-radiobtn'))
+
+//WebUI.setText(findTestObject('payment-page/cardnumber-field'), CustomKeywords.'web.keyword.randomInt'(16))
+//
+//WebUI.setText(findTestObject('payment-page/cvv-field'), CustomKeywords.'web.keyword.randomInt'(4))
+//
+//WebUI.setText(findTestObject('payment-page/cardholder-field'), CustomKeywords.'web.keyword.randomStr'(8))
+
+//WebUI.click(findTestObject('payment-page/rememberCC-checkbox'))
+
+WebUI.click(findTestObject('payment-page/paynow-btn'))
+
+WebUI.verifyTextPresent('Thank you for buying with Advantage', false)
+
+WebUI.delay(2)
+
+//WebUI.click(findTestObject('home-page/user-icon'))
+//
+//WebUI.click(findTestObject('home-page/signout-btn'))
 WebUI.closeBrowser()
+

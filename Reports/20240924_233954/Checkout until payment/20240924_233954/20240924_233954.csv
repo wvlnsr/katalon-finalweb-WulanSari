@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout until payment,Chrome 129.0.0.0,,,24-09-2024 23:39:58,24-09-2024 23:41:11,1m - 13.487s,PASSED
+,,,,,,,
+Test Cases/3. Add product to cart,Chrome 129.0.0.0,,,24-09-2024 23:39:58,24-09-2024 23:40:31,32.668s,PASSED
+openBrowser(baseUrl),Chrome 129.0.0.0,,,24-09-2024 23:39:59,24-09-2024 23:40:04,5.540s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,24-09-2024 23:40:04,24-09-2024 23:40:04,0.136s,PASSED
+"verifyElementPresent(findTestObject(""home-page/user-icon""), 0)",Chrome 129.0.0.0,,,24-09-2024 23:40:04,24-09-2024 23:40:05,1.207s,PASSED
+"click(findTestObject(""home-page/user-icon""))",Chrome 129.0.0.0,,,24-09-2024 23:40:05,24-09-2024 23:40:08,2.588s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 129.0.0.0,,,24-09-2024 23:40:08,24-09-2024 23:40:10,2.088s,PASSED
+"setText(findTestObject(""home-page/login-modal/username-field""), username)",Chrome 129.0.0.0,,,24-09-2024 23:40:10,24-09-2024 23:40:11,0.694s,PASSED
+"setText(findTestObject(""home-page/login-modal/password-field""), password)",Chrome 129.0.0.0,,,24-09-2024 23:40:11,24-09-2024 23:40:12,0.947s,PASSED
+"click(findTestObject(""home-page/login-modal/signin-btn""))",Chrome 129.0.0.0,,,24-09-2024 23:40:12,24-09-2024 23:40:12,0.483s,PASSED
+"verifyTextPresent(username, false)",Chrome 129.0.0.0,,,24-09-2024 23:40:12,24-09-2024 23:40:15,2.232s,PASSED
+"click(findTestObject(""home-page/headphone-sec""))",Chrome 129.0.0.0,,,24-09-2024 23:40:15,24-09-2024 23:40:15,0.335s,PASSED
+"click(findTestObject(""headphone-sec-page/product""))",Chrome 129.0.0.0,,,24-09-2024 23:40:15,24-09-2024 23:40:17,1.976s,PASSED
+"click(findTestObject(""product-detail/plus""))",Chrome 129.0.0.0,,,24-09-2024 23:40:17,24-09-2024 23:40:25,7.893s,PASSED
+"click(findTestObject(""product-detail/add2cart-btn""))",Chrome 129.0.0.0,,,24-09-2024 23:40:25,24-09-2024 23:40:25,0.327s,PASSED
+delay(5),Chrome 129.0.0.0,,,24-09-2024 23:40:25,24-09-2024 23:40:30,5.011s,PASSED
+"click(findTestObject(""home-page/cart-icon""))",Chrome 129.0.0.0,,,24-09-2024 23:40:30,24-09-2024 23:40:30,0.378s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,24-09-2024 23:40:30,24-09-2024 23:40:31,0.403s,PASSED
+,,,,,,,
+Test Cases/4. Checkout until payment successfully,Chrome 129.0.0.0,,,24-09-2024 23:40:31,24-09-2024 23:41:11,40.571s,PASSED
+openBrowser(baseUrl),Chrome 129.0.0.0,,,24-09-2024 23:40:31,24-09-2024 23:40:35,3.889s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,24-09-2024 23:40:35,24-09-2024 23:40:35,0.126s,PASSED
+"verifyElementPresent(findTestObject(""home-page/user-icon""), 0)",Chrome 129.0.0.0,,,24-09-2024 23:40:35,24-09-2024 23:40:36,1.265s,PASSED
+"click(findTestObject(""home-page/user-icon""))",Chrome 129.0.0.0,,,24-09-2024 23:40:36,24-09-2024 23:40:39,2.980s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 129.0.0.0,,,24-09-2024 23:40:39,24-09-2024 23:40:41,2.015s,PASSED
+"setText(findTestObject(""home-page/login-modal/username-field""), username)",Chrome 129.0.0.0,,,24-09-2024 23:40:41,24-09-2024 23:40:42,0.690s,PASSED
+"setText(findTestObject(""home-page/login-modal/password-field""), password)",Chrome 129.0.0.0,,,24-09-2024 23:40:42,24-09-2024 23:40:43,0.938s,PASSED
+"click(findTestObject(""home-page/login-modal/signin-btn""))",Chrome 129.0.0.0,,,24-09-2024 23:40:43,24-09-2024 23:40:43,0.551s,PASSED
+"verifyTextPresent(username, false)",Chrome 129.0.0.0,,,24-09-2024 23:40:43,24-09-2024 23:40:45,1.902s,PASSED
+"click(findTestObject(""home-page/headphone-sec""))",Chrome 129.0.0.0,,,24-09-2024 23:40:45,24-09-2024 23:40:46,0.317s,PASSED
+"click(findTestObject(""headphone-sec-page/product""))",Chrome 129.0.0.0,,,24-09-2024 23:40:46,24-09-2024 23:40:48,2.112s,PASSED
+"click(findTestObject(""product-detail/plus""))",Chrome 129.0.0.0,,,24-09-2024 23:40:48,24-09-2024 23:40:56,8.046s,PASSED
+"click(findTestObject(""product-detail/add2cart-btn""))",Chrome 129.0.0.0,,,24-09-2024 23:40:56,24-09-2024 23:40:56,0.291s,PASSED
+delay(5),Chrome 129.0.0.0,,,24-09-2024 23:40:56,24-09-2024 23:41:01,5.009s,PASSED
+"click(findTestObject(""home-page/cart-icon""))",Chrome 129.0.0.0,,,24-09-2024 23:41:01,24-09-2024 23:41:02,0.373s,PASSED
+"click(findTestObject(""cart-page/checkout-btn""))",Chrome 129.0.0.0,,,24-09-2024 23:41:02,24-09-2024 23:41:03,1.524s,PASSED
+"click(findTestObject(""payment-page/next-btn""))",Chrome 129.0.0.0,,,24-09-2024 23:41:03,24-09-2024 23:41:06,3.196s,PASSED
+"click(findTestObject(""payment-page/mastercard-radiobtn""))",Chrome 129.0.0.0,,,24-09-2024 23:41:06,24-09-2024 23:41:07,0.366s,PASSED
+"click(findTestObject(""payment-page/paynow-btn""))",Chrome 129.0.0.0,,,24-09-2024 23:41:07,24-09-2024 23:41:07,0.332s,PASSED
+"verifyTextPresent(""Thank you for buying with Advantage"", false)",Chrome 129.0.0.0,,,24-09-2024 23:41:07,24-09-2024 23:41:09,2.134s,PASSED
+delay(2),Chrome 129.0.0.0,,,24-09-2024 23:41:09,24-09-2024 23:41:11,2.010s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,24-09-2024 23:41:11,24-09-2024 23:41:11,0.308s,PASSED

@@ -17,13 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.baseUrl)
+WebUI.openBrowser(GlobalVariable.baseUrl + '#/register')
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('home-page/logo'), 0)
+WebUI.verifyElementPresent(findTestObject('home-page/user-icon'), 0)
 
-WebUI.click(findTestObject('home-page/user-icon'))
+WebUI.setText(findTestObject('register-page/username-field'), CustomKeywords.'web.keyword.randomStr'(10))
 
-WebUI.click(findTestObject('home-page/login-modal/register-btn'))
+WebUI.setText(findTestObject('register-page/email-field'), email)
+
+WebUI.setText(findTestObject('register-page/password-field'), GlobalVariable.password)
+
+WebUI.setText(findTestObject('register-page/cnfpassword-field'), GlobalVariable.password)
+
+WebUI.click(findTestObject('register-page/snk-checkbox'))
+
+WebUI.click(findTestObject('register-page/register-btn'))
+
+WebUI.closeBrowser()
 

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register and Login" time="26.305" tests="2" failures="0" errors="0">
+   <testsuite name="Register and Login" tests="2" failures="0" errors="0" time="26.305" skipped="0" timestamp="24-09-2024T23:24:39" hostname="user.pupuk - PIHC5723.PUPUK-INDONESIA.local" id="Test Suites/Register and Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\user.pupuk\\Katalon Studio\\finalproject2\\katalon-finalweb-WulanSari\\Reports\\20240924_232435\\Register and Login\\20240924_232435"/>
+         <property name="logFiles" value="C:\\Users\\user.pupuk\\Katalon Studio\\finalproject2\\katalon-finalweb-WulanSari\\Reports\\20240924_232435\\Register and Login\\20240924_232435\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user.pupuk - PIHC5723.PUPUK-INDONESIA.local"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.90.34"/>
+         <property name="sessionId" value="312fa9c6b1ed48a919c2d4fbb2ec0716"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/1. Register" time="11.38" classname="Test Cases/1. Register" status="PASSED">
+         <system-out><![CDATA[24-09-2024T23:24:39 - [TEST_CASE][PASSED] - Test Cases/1. Register: Test Cases/1. Register
+
+24-09-2024T23:24:39 - [TEST_STEP][PASSED] - openBrowser(baseUrl + "#/register"): Browser is opened with url: 'https://advantageonlineshopping.com/#/register'
+
+24-09-2024T23:24:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-09-2024T23:24:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T23:24:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/#/register'
+
+24-09-2024T23:24:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-09-2024T23:24:44 - [MESSAGE][PASSED] - Current window maximized
+
+24-09-2024T23:24:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("home-page/user-icon"), 0): Object 'Object Repository/home-page/user-icon' is present
+
+24-09-2024T23:24:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T23:24:46 - [MESSAGE][PASSED] - Object 'Object Repository/home-page/user-icon' is present
+
+24-09-2024T23:24:46 - [TEST_STEP][PASSED] - setText(findTestObject("register-page/username-field"), web.keyword.randomStr(5)): Text 'tHFiq' is set on object 'Object Repository/register-page/username-field'
+
+24-09-2024T23:24:46 - [MESSAGE][PASSED] - web.keyword.randomStr is PASSED
+
+24-09-2024T23:24:46 - [MESSAGE][PASSED] - Text 'tHFiq' is set on object 'Object Repository/register-page/username-field'
+
+24-09-2024T23:24:46 - [TEST_STEP][PASSED] - setText(findTestObject("register-page/email-field"), email): Text 'test@example.com' is set on object 'Object Repository/register-page/email-field'
+
+24-09-2024T23:24:47 - [MESSAGE][PASSED] - Text 'test@example.com' is set on object 'Object Repository/register-page/email-field'
+
+24-09-2024T23:24:47 - [TEST_STEP][PASSED] - setText(findTestObject("register-page/password-field"), password): Text 'finaL3' is set on object 'Object Repository/register-page/password-field'
+
+24-09-2024T23:24:48 - [MESSAGE][PASSED] - Text 'finaL3' is set on object 'Object Repository/register-page/password-field'
+
+24-09-2024T23:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("register-page/cnfpassword-field"), password): Text 'finaL3' is set on object 'Object Repository/register-page/cnfpassword-field'
+
+24-09-2024T23:24:49 - [MESSAGE][PASSED] - Text 'finaL3' is set on object 'Object Repository/register-page/cnfpassword-field'
+
+24-09-2024T23:24:49 - [TEST_STEP][PASSED] - click(findTestObject("register-page/snk-checkbox")): Object: 'Object Repository/register-page/snk-checkbox' is clicked on
+
+24-09-2024T23:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/register-page/snk-checkbox' is clicked on
+
+24-09-2024T23:24:50 - [TEST_STEP][PASSED] - click(findTestObject("register-page/register-btn")): Object: 'Object Repository/register-page/register-btn' is clicked on
+
+24-09-2024T23:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/register-page/register-btn' is clicked on
+
+24-09-2024T23:24:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-09-2024T23:24:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2. Login" time="14.751" classname="Test Cases/2. Login" status="PASSED">
+         <system-out><![CDATA[24-09-2024T23:24:50 - [TEST_CASE][PASSED] - Test Cases/2. Login: Test Cases/2. Login
+
+24-09-2024T23:24:51 - [TEST_STEP][PASSED] - openBrowser(baseUrl): Browser is opened with url: 'https://advantageonlineshopping.com/'
+
+24-09-2024T23:24:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-09-2024T23:24:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T23:24:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/'
+
+24-09-2024T23:24:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-09-2024T23:24:55 - [MESSAGE][PASSED] - Current window maximized
+
+24-09-2024T23:24:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("home-page/user-icon"), 0): Object 'Object Repository/home-page/user-icon' is present
+
+24-09-2024T23:24:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T23:24:56 - [MESSAGE][PASSED] - Object 'Object Repository/home-page/user-icon' is present
+
+24-09-2024T23:24:56 - [TEST_STEP][PASSED] - click(findTestObject("home-page/user-icon")): Object: 'Object Repository/home-page/user-icon' is clicked on
+
+24-09-2024T23:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/user-icon' is clicked on
+
+24-09-2024T23:24:59 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+24-09-2024T23:25:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-09-2024T23:25:01 - [TEST_STEP][PASSED] - setText(findTestObject("home-page/login-modal/username-field"), username): Text 'finale' is set on object 'Object Repository/home-page/login-modal/username-field'
+
+24-09-2024T23:25:02 - [MESSAGE][PASSED] - Text 'finale' is set on object 'Object Repository/home-page/login-modal/username-field'
+
+24-09-2024T23:25:02 - [TEST_STEP][PASSED] - setText(findTestObject("home-page/login-modal/password-field"), password): Text 'finaL3' is set on object 'Object Repository/home-page/login-modal/password-field'
+
+24-09-2024T23:25:03 - [MESSAGE][PASSED] - Text 'finaL3' is set on object 'Object Repository/home-page/login-modal/password-field'
+
+24-09-2024T23:25:03 - [TEST_STEP][PASSED] - click(findTestObject("home-page/login-modal/signin-btn")): Object: 'Object Repository/home-page/login-modal/signin-btn' is clicked on
+
+24-09-2024T23:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/login-modal/signin-btn' is clicked on
+
+24-09-2024T23:25:03 - [TEST_STEP][PASSED] - verifyTextPresent(username, false): Text 'finale' is present on page 
+
+24-09-2024T23:25:05 - [MESSAGE][PASSED] - Text 'finale' is present on page 
+
+24-09-2024T23:25:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-09-2024T23:25:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-09-2024T23:24:39 - [TEST_SUITE][PASSED] - Register and Login: Test Cases/2. Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

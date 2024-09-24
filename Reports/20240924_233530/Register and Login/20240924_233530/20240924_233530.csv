@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register and Login,Chrome 129.0.0.0,,,24-09-2024 23:35:34,24-09-2024 23:36:01,27.475s,PASSED
+,,,,,,,
+Test Cases/1. Register,Chrome 129.0.0.0,,,24-09-2024 23:35:34,24-09-2024 23:35:47,12.901s,PASSED
+"openBrowser(baseUrl + ""#/register"")",Chrome 129.0.0.0,,,24-09-2024 23:35:35,24-09-2024 23:35:41,5.825s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,24-09-2024 23:35:41,24-09-2024 23:35:41,0.221s,PASSED
+"verifyElementPresent(findTestObject(""home-page/user-icon""), 0)",Chrome 129.0.0.0,,,24-09-2024 23:35:41,24-09-2024 23:35:42,0.997s,PASSED
+"setText(findTestObject(""register-page/username-field""), web.keyword.randomStr(10))",Chrome 129.0.0.0,,,24-09-2024 23:35:42,24-09-2024 23:35:43,1.011s,PASSED
+"setText(findTestObject(""register-page/email-field""), email)",Chrome 129.0.0.0,,,24-09-2024 23:35:43,24-09-2024 23:35:44,0.796s,PASSED
+"setText(findTestObject(""register-page/password-field""), password)",Chrome 129.0.0.0,,,24-09-2024 23:35:44,24-09-2024 23:35:45,0.900s,PASSED
+"setText(findTestObject(""register-page/cnfpassword-field""), password)",Chrome 129.0.0.0,,,24-09-2024 23:35:45,24-09-2024 23:35:45,0.953s,PASSED
+"click(findTestObject(""register-page/snk-checkbox""))",Chrome 129.0.0.0,,,24-09-2024 23:35:45,24-09-2024 23:35:46,0.689s,PASSED
+"click(findTestObject(""register-page/register-btn""))",Chrome 129.0.0.0,,,24-09-2024 23:35:46,24-09-2024 23:35:47,0.543s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,24-09-2024 23:35:47,24-09-2024 23:35:47,0.450s,PASSED
+,,,,,,,
+Test Cases/2. Login,Chrome 129.0.0.0,,,24-09-2024 23:35:47,24-09-2024 23:36:01,14.309s,PASSED
+openBrowser(baseUrl),Chrome 129.0.0.0,,,24-09-2024 23:35:48,24-09-2024 23:35:52,4.310s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,24-09-2024 23:35:52,24-09-2024 23:35:52,0.113s,PASSED
+"verifyElementPresent(findTestObject(""home-page/user-icon""), 0)",Chrome 129.0.0.0,,,24-09-2024 23:35:52,24-09-2024 23:35:53,1.303s,PASSED
+"click(findTestObject(""home-page/user-icon""))",Chrome 129.0.0.0,,,24-09-2024 23:35:53,24-09-2024 23:35:56,2.557s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 129.0.0.0,,,24-09-2024 23:35:56,24-09-2024 23:35:58,2.091s,PASSED
+"setText(findTestObject(""home-page/login-modal/username-field""), username)",Chrome 129.0.0.0,,,24-09-2024 23:35:58,24-09-2024 23:35:59,0.700s,PASSED
+"setText(findTestObject(""home-page/login-modal/password-field""), password)",Chrome 129.0.0.0,,,24-09-2024 23:35:59,24-09-2024 23:36:00,0.912s,PASSED
+"click(findTestObject(""home-page/login-modal/signin-btn""))",Chrome 129.0.0.0,,,24-09-2024 23:36:00,24-09-2024 23:36:00,0.567s,PASSED
+"verifyTextPresent(username, false)",Chrome 129.0.0.0,,,24-09-2024 23:36:00,24-09-2024 23:36:01,1.121s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,24-09-2024 23:36:01,24-09-2024 23:36:01,0.299s,PASSED
