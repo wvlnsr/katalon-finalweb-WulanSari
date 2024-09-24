@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Register</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>57141b48-3e89-448d-a26d-1b3b45fe80b5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0099d417-abff-4c5c-9963-4abba7db1e19</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test@example.com'</defaultValue>
+      <description></description>
+      <id>0099d417-abff-4c5c-9963-4abba7db1e19</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

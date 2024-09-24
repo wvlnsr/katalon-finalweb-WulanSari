@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout until payment" time="73.487" tests="2" failures="0" errors="0">
+   <testsuite name="Checkout until payment" tests="2" failures="0" errors="0" time="73.487" skipped="0" timestamp="24-09-2024T23:39:58" hostname="user.pupuk - PIHC5723.PUPUK-INDONESIA.local" id="Test Suites/Checkout until payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\user.pupuk\\Katalon Studio\\finalproject2\\katalon-finalweb-WulanSari\\Reports\\20240924_233954\\Checkout until payment\\20240924_233954"/>
+         <property name="logFiles" value="C:\\Users\\user.pupuk\\Katalon Studio\\finalproject2\\katalon-finalweb-WulanSari\\Reports\\20240924_233954\\Checkout until payment\\20240924_233954\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user.pupuk - PIHC5723.PUPUK-INDONESIA.local"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.90.34"/>
+         <property name="sessionId" value="54f5081e25e479790e318fd7bfcf253b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/3. Add product to cart" time="32.668" classname="Test Cases/3. Add product to cart" status="PASSED">
+         <system-out><![CDATA[24-09-2024T23:39:58 - [TEST_CASE][PASSED] - Test Cases/3. Add product to cart: Test Cases/3. Add product to cart
+
+24-09-2024T23:39:59 - [TEST_STEP][PASSED] - openBrowser(baseUrl): Browser is opened with url: 'https://advantageonlineshopping.com/'
+
+24-09-2024T23:39:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-09-2024T23:39:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T23:40:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/'
+
+24-09-2024T23:40:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-09-2024T23:40:04 - [MESSAGE][PASSED] - Current window maximized
+
+24-09-2024T23:40:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("home-page/user-icon"), 0): Object 'Object Repository/home-page/user-icon' is present
+
+24-09-2024T23:40:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T23:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/home-page/user-icon' is present
+
+24-09-2024T23:40:05 - [TEST_STEP][PASSED] - click(findTestObject("home-page/user-icon")): Object: 'Object Repository/home-page/user-icon' is clicked on
+
+24-09-2024T23:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/user-icon' is clicked on
+
+24-09-2024T23:40:08 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+24-09-2024T23:40:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-09-2024T23:40:10 - [TEST_STEP][PASSED] - setText(findTestObject("home-page/login-modal/username-field"), username): Text 'finale' is set on object 'Object Repository/home-page/login-modal/username-field'
+
+24-09-2024T23:40:11 - [MESSAGE][PASSED] - Text 'finale' is set on object 'Object Repository/home-page/login-modal/username-field'
+
+24-09-2024T23:40:11 - [TEST_STEP][PASSED] - setText(findTestObject("home-page/login-modal/password-field"), password): Text 'finaL3' is set on object 'Object Repository/home-page/login-modal/password-field'
+
+24-09-2024T23:40:12 - [MESSAGE][PASSED] - Text 'finaL3' is set on object 'Object Repository/home-page/login-modal/password-field'
+
+24-09-2024T23:40:12 - [TEST_STEP][PASSED] - click(findTestObject("home-page/login-modal/signin-btn")): Object: 'Object Repository/home-page/login-modal/signin-btn' is clicked on
+
+24-09-2024T23:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/login-modal/signin-btn' is clicked on
+
+24-09-2024T23:40:12 - [TEST_STEP][PASSED] - verifyTextPresent(username, false): Text 'finale' is present on page 
+
+24-09-2024T23:40:15 - [MESSAGE][PASSED] - Text 'finale' is present on page 
+
+24-09-2024T23:40:15 - [TEST_STEP][PASSED] - click(findTestObject("home-page/headphone-sec")): Object: 'Object Repository/home-page/headphone-sec' is clicked on
+
+24-09-2024T23:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/headphone-sec' is clicked on
+
+24-09-2024T23:40:15 - [TEST_STEP][PASSED] - click(findTestObject("headphone-sec-page/product")): Object: 'Object Repository/headphone-sec-page/product' is clicked on
+
+24-09-2024T23:40:17 - [MESSAGE][PASSED] - Object: 'Object Repository/headphone-sec-page/product' is clicked on
+
+24-09-2024T23:40:17 - [TEST_STEP][PASSED] - click(findTestObject("product-detail/plus")): Object: 'Object Repository/product-detail/plus' is clicked on
+
+24-09-2024T23:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/product-detail/plus' is clicked on
+
+24-09-2024T23:40:25 - [TEST_STEP][PASSED] - click(findTestObject("product-detail/add2cart-btn")): Object: 'Object Repository/product-detail/add2cart-btn' is clicked on
+
+24-09-2024T23:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/product-detail/add2cart-btn' is clicked on
+
+24-09-2024T23:40:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+24-09-2024T23:40:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+24-09-2024T23:40:30 - [TEST_STEP][PASSED] - click(findTestObject("home-page/cart-icon")): Object: 'Object Repository/home-page/cart-icon' is clicked on
+
+24-09-2024T23:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/cart-icon' is clicked on
+
+24-09-2024T23:40:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-09-2024T23:40:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. Checkout until payment successfully" time="40.571" classname="Test Cases/4. Checkout until payment successfully" status="PASSED">
+         <system-out><![CDATA[24-09-2024T23:40:31 - [TEST_CASE][PASSED] - Test Cases/4. Checkout until payment successfully: Test Cases/4. Checkout until payment successfully
+
+24-09-2024T23:40:31 - [TEST_STEP][PASSED] - openBrowser(baseUrl): Browser is opened with url: 'https://advantageonlineshopping.com/'
+
+24-09-2024T23:40:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-09-2024T23:40:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-09-2024T23:40:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://advantageonlineshopping.com/'
+
+24-09-2024T23:40:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-09-2024T23:40:35 - [MESSAGE][PASSED] - Current window maximized
+
+24-09-2024T23:40:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("home-page/user-icon"), 0): Object 'Object Repository/home-page/user-icon' is present
+
+24-09-2024T23:40:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-09-2024T23:40:36 - [MESSAGE][PASSED] - Object 'Object Repository/home-page/user-icon' is present
+
+24-09-2024T23:40:36 - [TEST_STEP][PASSED] - click(findTestObject("home-page/user-icon")): Object: 'Object Repository/home-page/user-icon' is clicked on
+
+24-09-2024T23:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/user-icon' is clicked on
+
+24-09-2024T23:40:39 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+24-09-2024T23:40:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-09-2024T23:40:41 - [TEST_STEP][PASSED] - setText(findTestObject("home-page/login-modal/username-field"), username): Text 'finale' is set on object 'Object Repository/home-page/login-modal/username-field'
+
+24-09-2024T23:40:42 - [MESSAGE][PASSED] - Text 'finale' is set on object 'Object Repository/home-page/login-modal/username-field'
+
+24-09-2024T23:40:42 - [TEST_STEP][PASSED] - setText(findTestObject("home-page/login-modal/password-field"), password): Text 'finaL3' is set on object 'Object Repository/home-page/login-modal/password-field'
+
+24-09-2024T23:40:43 - [MESSAGE][PASSED] - Text 'finaL3' is set on object 'Object Repository/home-page/login-modal/password-field'
+
+24-09-2024T23:40:43 - [TEST_STEP][PASSED] - click(findTestObject("home-page/login-modal/signin-btn")): Object: 'Object Repository/home-page/login-modal/signin-btn' is clicked on
+
+24-09-2024T23:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/login-modal/signin-btn' is clicked on
+
+24-09-2024T23:40:43 - [TEST_STEP][PASSED] - verifyTextPresent(username, false): Text 'finale' is present on page 
+
+24-09-2024T23:40:45 - [MESSAGE][PASSED] - Text 'finale' is present on page 
+
+24-09-2024T23:40:45 - [TEST_STEP][PASSED] - click(findTestObject("home-page/headphone-sec")): Object: 'Object Repository/home-page/headphone-sec' is clicked on
+
+24-09-2024T23:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/headphone-sec' is clicked on
+
+24-09-2024T23:40:46 - [TEST_STEP][PASSED] - click(findTestObject("headphone-sec-page/product")): Object: 'Object Repository/headphone-sec-page/product' is clicked on
+
+24-09-2024T23:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/headphone-sec-page/product' is clicked on
+
+24-09-2024T23:40:48 - [TEST_STEP][PASSED] - click(findTestObject("product-detail/plus")): Object: 'Object Repository/product-detail/plus' is clicked on
+
+24-09-2024T23:40:56 - [MESSAGE][PASSED] - Object: 'Object Repository/product-detail/plus' is clicked on
+
+24-09-2024T23:40:56 - [TEST_STEP][PASSED] - click(findTestObject("product-detail/add2cart-btn")): Object: 'Object Repository/product-detail/add2cart-btn' is clicked on
+
+24-09-2024T23:40:56 - [MESSAGE][PASSED] - Object: 'Object Repository/product-detail/add2cart-btn' is clicked on
+
+24-09-2024T23:40:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+24-09-2024T23:41:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+24-09-2024T23:41:01 - [TEST_STEP][PASSED] - click(findTestObject("home-page/cart-icon")): Object: 'Object Repository/home-page/cart-icon' is clicked on
+
+24-09-2024T23:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/home-page/cart-icon' is clicked on
+
+24-09-2024T23:41:02 - [TEST_STEP][PASSED] - click(findTestObject("cart-page/checkout-btn")): Object: 'Object Repository/cart-page/checkout-btn' is clicked on
+
+24-09-2024T23:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/cart-page/checkout-btn' is clicked on
+
+24-09-2024T23:41:03 - [TEST_STEP][PASSED] - click(findTestObject("payment-page/next-btn")): Object: 'Object Repository/payment-page/next-btn' is clicked on
+
+24-09-2024T23:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/payment-page/next-btn' is clicked on
+
+24-09-2024T23:41:06 - [TEST_STEP][PASSED] - click(findTestObject("payment-page/mastercard-radiobtn")): Object: 'Object Repository/payment-page/mastercard-radiobtn' is clicked on
+
+24-09-2024T23:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/payment-page/mastercard-radiobtn' is clicked on
+
+24-09-2024T23:41:07 - [TEST_STEP][PASSED] - click(findTestObject("payment-page/paynow-btn")): Object: 'Object Repository/payment-page/paynow-btn' is clicked on
+
+24-09-2024T23:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/payment-page/paynow-btn' is clicked on
+
+24-09-2024T23:41:07 - [TEST_STEP][PASSED] - verifyTextPresent("Thank you for buying with Advantage", false): Text 'Thank you for buying with Advantage' is present on page 
+
+24-09-2024T23:41:09 - [MESSAGE][PASSED] - Text 'Thank you for buying with Advantage' is present on page 
+
+24-09-2024T23:41:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+24-09-2024T23:41:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+24-09-2024T23:41:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-09-2024T23:41:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-09-2024T23:39:58 - [TEST_SUITE][PASSED] - Checkout until payment: Test Cases/4. Checkout until payment successfully]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

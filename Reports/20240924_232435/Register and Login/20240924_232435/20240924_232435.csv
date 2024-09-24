@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register and Login,Chrome 129.0.0.0,,,24-09-2024 23:24:39,24-09-2024 23:25:05,26.305s,PASSED
+,,,,,,,
+Test Cases/1. Register,Chrome 129.0.0.0,,,24-09-2024 23:24:39,24-09-2024 23:24:50,11.380s,PASSED
+"openBrowser(baseUrl + ""#/register"")",Chrome 129.0.0.0,,,24-09-2024 23:24:39,24-09-2024 23:24:44,4.945s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,24-09-2024 23:24:44,24-09-2024 23:24:44,0.076s,PASSED
+"verifyElementPresent(findTestObject(""home-page/user-icon""), 0)",Chrome 129.0.0.0,,,24-09-2024 23:24:44,24-09-2024 23:24:46,1.074s,PASSED
+"setText(findTestObject(""register-page/username-field""), web.keyword.randomStr(5))",Chrome 129.0.0.0,,,24-09-2024 23:24:46,24-09-2024 23:24:46,0.795s,PASSED
+"setText(findTestObject(""register-page/email-field""), email)",Chrome 129.0.0.0,,,24-09-2024 23:24:46,24-09-2024 23:24:47,0.988s,PASSED
+"setText(findTestObject(""register-page/password-field""), password)",Chrome 129.0.0.0,,,24-09-2024 23:24:47,24-09-2024 23:24:48,0.899s,PASSED
+"setText(findTestObject(""register-page/cnfpassword-field""), password)",Chrome 129.0.0.0,,,24-09-2024 23:24:48,24-09-2024 23:24:49,0.938s,PASSED
+"click(findTestObject(""register-page/snk-checkbox""))",Chrome 129.0.0.0,,,24-09-2024 23:24:49,24-09-2024 23:24:50,0.538s,PASSED
+"click(findTestObject(""register-page/register-btn""))",Chrome 129.0.0.0,,,24-09-2024 23:24:50,24-09-2024 23:24:50,0.593s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,24-09-2024 23:24:50,24-09-2024 23:24:50,0.187s,PASSED
+,,,,,,,
+Test Cases/2. Login,Chrome 129.0.0.0,,,24-09-2024 23:24:50,24-09-2024 23:25:05,14.751s,PASSED
+openBrowser(baseUrl),Chrome 129.0.0.0,,,24-09-2024 23:24:51,24-09-2024 23:24:55,3.987s,PASSED
+maximizeWindow(),Chrome 129.0.0.0,,,24-09-2024 23:24:55,24-09-2024 23:24:55,0.071s,PASSED
+"verifyElementPresent(findTestObject(""home-page/user-icon""), 0)",Chrome 129.0.0.0,,,24-09-2024 23:24:55,24-09-2024 23:24:56,1.354s,PASSED
+"click(findTestObject(""home-page/user-icon""))",Chrome 129.0.0.0,,,24-09-2024 23:24:56,24-09-2024 23:24:59,2.940s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 129.0.0.0,,,24-09-2024 23:24:59,24-09-2024 23:25:01,2.056s,PASSED
+"setText(findTestObject(""home-page/login-modal/username-field""), username)",Chrome 129.0.0.0,,,24-09-2024 23:25:01,24-09-2024 23:25:02,0.679s,PASSED
+"setText(findTestObject(""home-page/login-modal/password-field""), password)",Chrome 129.0.0.0,,,24-09-2024 23:25:02,24-09-2024 23:25:03,1.003s,PASSED
+"click(findTestObject(""home-page/login-modal/signin-btn""))",Chrome 129.0.0.0,,,24-09-2024 23:25:03,24-09-2024 23:25:03,0.524s,PASSED
+"verifyTextPresent(username, false)",Chrome 129.0.0.0,,,24-09-2024 23:25:03,24-09-2024 23:25:05,1.798s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,24-09-2024 23:25:05,24-09-2024 23:25:05,0.201s,PASSED

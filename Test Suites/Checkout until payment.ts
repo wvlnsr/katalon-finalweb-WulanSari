@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Login</name>
+   <name>Checkout until payment</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>811b80f8-f518-468a-bfac-317e437a5e42</testSuiteGuid>
+   <testSuiteGuid>0171bf26-2b6f-4ff2-964a-0723f428ca4b</testSuiteGuid>
    <testCaseLink>
-      <guid>252849f7-3341-4674-afbf-508464505746</guid>
+      <guid>210aa347-4a25-4860-99f7-3e751b212830</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1. Register</testCaseId>
+      <testCaseId>Test Cases/3. Add product to cart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>266bd804-7ce5-4f97-a785-428ceb559615</guid>
+      <guid>6c5fa4f5-54f8-452b-8284-454fdac659bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/2. Login</testCaseId>
+      <testCaseId>Test Cases/4. Checkout until payment successfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

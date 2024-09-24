@@ -35,4 +35,21 @@ WebUI.click(findTestObject('home-page/login-modal/signin-btn'))
 
 WebUI.verifyTextPresent(GlobalVariable.username, false)
 
+WebUI.click(findTestObject('home-page/headphone-sec'))
+
+WebUI.click(findTestObject('headphone-sec-page/product'))
+
+WebUI.click(findTestObject('product-detail/plus'))
+
+WebUI.click(findTestObject('product-detail/add2cart-btn'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('home-page/cart-icon'))
+
+//not_run: WebUI.click(findTestObject('home-page/user-icon'))
+//
+//not_run: WebUI.click(findTestObject('home-page/signout-btn'))
+
 WebUI.closeBrowser()
+
